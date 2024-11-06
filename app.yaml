@@ -1,0 +1,9 @@
+runtime: java11
+instance_class: F1
+entrypoint: java -jar target/new-1-0.0.1-SNAPSHOT.jar
+
+env: standard
+
+handlers:
+- url: /.*
+  script: this field is required, but ignored
